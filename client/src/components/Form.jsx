@@ -24,7 +24,7 @@ const SendEmailForm = () => {
     e.preventDefault();
     toggleOnOff();
     try {
-      const response = await fetch('http://localhost:5000/api/v1/sendEmail/sendmail', {
+      const response = await fetch('https://my-portfolio-sandy-phi.vercel.app/api/v1/sendEmail/sendmail', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
