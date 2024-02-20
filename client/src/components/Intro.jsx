@@ -7,7 +7,7 @@ function Intro (){
                 <img className="introDash" src="/images/Intro/Rectangle.png" alt="" />
             </div>
             <div className="occupation">
-                <h1>Miguel Canc'el</h1>
+                <h1>Miguel Cancel</h1>
                 <h4>Full Stack Developer</h4>
             </div>
             <div>
