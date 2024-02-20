@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
-const sendEmail = require('./routes/sendmail')
+const sendEmail = require('../routes/sendmail')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
