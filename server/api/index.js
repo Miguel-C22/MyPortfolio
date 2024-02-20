@@ -5,7 +5,7 @@ const bodyParser = require('body-parser')
 
 const app = express()
 
-const sendEmail = require('./routes/sendmail')
+const sendEmail = require('../routes/sendmail')
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:false}))
@@ -15,7 +15,7 @@ const corsOptions = {
     Credential: true,
     optionSuccessStatus: 200
 }
-// app.get('/', (req, res) => res.status(200).json({ message: "Hello World!"}))
+app.get('/', (req, res) => res.status(200).json({ message: "Hello World!"}))
 app.use(cors(corsOptions))
 app.use('/api/v1/sendEmail', sendEmail)
 
