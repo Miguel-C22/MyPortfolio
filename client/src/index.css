@@ -72,6 +72,10 @@ a, button{
   align-items: center;
 }
 
+.navigation a:hover{
+  color:#8E2DE2;
+}
+
 .links{
   display: flex;
   align-items: center;
@@ -505,7 +509,7 @@ input:focus, textarea:focus {
 
 textarea {
   resize: none;
-  height: 300px;
+  height: 200px;
 }
 
 .formBtn {

@@ -83,7 +83,9 @@ export default function ChatBot() {
                         type="text" 
                         placeholder="Get to know me... ask me anything!"
                         value={input}
-                        onChange={handleChange} />
+                        onChange={handleChange} 
+                        required
+                        />
                         <button className="askBtn">Ask</button>
                     </div>
                 </form>
